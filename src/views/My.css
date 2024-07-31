@@ -1,0 +1,252 @@
+.mybig {
+    /* width: 100%; */
+    height: 100%;
+  }
+  
+  .mytop {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    display: flex;
+  }
+  .mytop1{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mytop2{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  
+  .mybody {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-c {
+    width: 70%;
+    height: 1000px;
+    margin-left: 15%;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-c-t {
+    width: 100%;
+    height: 220px;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-c-t1 {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid; */
+    background-color: #e3e3e3;
+  }
+  
+  .my-name {
+    /* height: auto; */
+    /* width: auto; */
+    /* border: 1px solid; */
+    font-size: 25px;
+    font-weight: 600;
+    /* margin: 70px 0 0 160px; */
+    position: relative;
+    top: 70px;
+    left: 160px;
+  }
+  
+  .my-gender {
+    /* width: auto; */
+    /* border: 1px solid; */
+    font-size: 25px;
+    font-weight: 600;
+    margin: -45px 0 0 160px;
+    position: relative;
+  }
+  
+  .myaddress {
+    width: 200px;
+    /* border: 1px solid; */
+    font-size: 15px;
+    font-weight: 600;
+    /* margin: 80px 0 0 1000px; */
+    top: 50%;
+    left: 80%;
+    position: relative;
+  }
+  
+  .my-c-t2-box1 {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    margin: -50px 0 0 30px;
+  }
+  
+  .my-c-t2-box2 {
+    position: relative;
+    /* margin: -10px 0 0 980px; */
+    /* border: 1px solid; */
+    width: 90px;
+    top: 40%;
+    left: 80%;
+  }
+
+  .hidebox {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+  }
+  
+  .formbox {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    top: 10%;
+    left: 15%;
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+  }
+  
+  .form {
+    width: 50%;
+    /* border: 1px solid; */
+    height: 90%;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明黑色 */
+    z-index: 9;
+    /* 确保遮罩层位于其他内容之上 */
+    pointer-events: auto;
+    /* 确保遮罩层可以接收鼠标事件 */
+  }
+  
+  .formtop {
+    width: 100%;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    height: 10%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .formbody {
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .form-l {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formimg {
+    width: 100px;
+    /* height: 300px; */
+    /* border: 1px solid; */
+    margin-top: 20%;
+  }
+
+  .fome-r{
+    width: 100%;
+    /* border: 1px solid; */
+  }
+
+  .fome-rt{
+    
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .my-c-c{
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid; */
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  .my-c-cl{
+    width: 60%;
+    margin-right: 10%;
+  }
+  .my-c-cl-a{
+    /* left: 40px;
+    position: relative; */
+    margin-left: 60px;
+  }
+
+
+  .my-c-cr{
+    width: 30%;
+    /* border: 1px solid; */
+    
+    
+  }
+
+  .my-c-cr1{
+    height: 60px;
+    /* width: 100%; */
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 40px;
+  }
+  .my-c-cr2{
+    height: 40px;
+    /* width: 100%; */
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 40px;
+  }
+  .my-c-cr3{
+    height: 30px;
+    /* width: 100%; */
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: 40px;
+    /* justify-content: center; */
+    align-items: center;
+  }

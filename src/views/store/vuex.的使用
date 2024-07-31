@@ -1,0 +1,29 @@
+
+import { createStore } from 'vuex';
+export default createStore({
+  state: {
+
+  },
+  需要使用到数据的话就是
+  this.$store.state.全局变量名称
+  mutations: {
+   
+    
+  },
+  actions: {
+   
+  },
+  modules: {
+
+  }
+});
+
+
+
+npm install vuex-persistedstate
+在 Vuex 的 store 配置中引入 vuex-persistedstate，并将 userData 持久化:
+import VuexPersist from 'vuex-persistedstate';
+
+
+curl -X GET http://localhost:3000/arr
+查课api端点
