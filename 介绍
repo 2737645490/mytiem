@@ -1,0 +1,96 @@
+node -v
+查看版本
+
+npm init vite@latest myitem
+创建项目myitem
+
+使用 Vite 构建工具创建项目模板。
+Vite 是一个现代化的前端构建工具，用于快速搭建现代化的 Vue、React 或者原生 JavaScript 项目。
+通过该命令创建的项目模板具有现代化的构建特性，如快速的热模块替换、即时的开发服务器、基于 ES 模块的构建等，能够提供更快的开发和构建速度。
+版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+
+
+cd myitem
+打开目录建立的文件位置
+
+npm install
+安装package.json文件中的依赖包
+
+npm run dev
+运行项目
+
+
+建立一个router空文件
+
+npm install vue-router@4
+安装Vue.js的路由器（Vue Router）的第四个主要版本
+Vue Router是一个官方的Vue.js插件，用于管理应用程序的路由。
+通过运行这个命令，你可以将Vue Router的最新版本（主要版本号为4.x）添加到你的项目中。
+
+
+
+在main.json添加
+app.use()
+// 这是 Vue.js 3 中的全局 API，用于安装插件或中间件。
+app.mount("#app")
+// 这是 Vue.js 3 中的方法，用于将你创建的 Vue 应用程序实例挂载到 HTML 文档中的特定元素上。
+
+
+npm install path --save
+是用于安装 Node.js 的核心模块 path，并将其保存为项目的依赖。
+
+
+npm install element-plus --save
+
+
+
+在导入登录页面的背景图片时
+npm install  sass -save
+
+
+
+
+
+动态背景
+npm install vanta@0.5.24
+
+npm install three@0.121.0
+
+
+建立一个文件夹
+utils
+文件夹里面建立一个js文件
+Requestest.js
+
+
+
+
+要在Vue 3中点击按钮使用Node.js服务器，可以使用axios或fetch来发送HTTP请求。首先，确保您的Vue项目中已经安装了axios或者使用原生的fetch API。
+npm install axios
+
+
+
+
+npm install vue-router
+应用路由
+
+
+
+npm install vuex@next --save
+npm install vuex --save
+下载vue的库用来存储数据库里面的数据
+
+
+
+vuex持久化存储
+下载
+npm install vuex-persistedstate
+
+
+然后在vuex引入
+import createPersistedState from 'vuex-persistedstate';
+
+
+npm install vuex-persistedstate
+在 Vuex 的 store 配置中引入 vuex-persistedstate，并将 userData 持久化:
+import VuexPersist from 'vuex-persistedstate';
